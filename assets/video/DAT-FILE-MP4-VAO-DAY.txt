@@ -1,0 +1,3 @@
+Dat video ngan tai day va dat ten: wedding-clip.mp4
+(hoac doi duong dan trong js/config.js -> video.src)
+Goi y: MP4/H.264, 15-40 giay, < 20 MB de tai nhanh tren 4G.
