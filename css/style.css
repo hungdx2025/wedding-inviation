@@ -74,7 +74,8 @@ a{ color:var(--rose); }
   padding:24px;
   text-align:center;
   background:
-    radial-gradient(60% 50% at 50% 30%, #fff 0%, var(--blush-2) 40%, var(--pink-soft) 100%);
+    radial-gradient(60% 50% at 50% 30%, rgba(255,255,255,.88) 0%, rgba(253,234,241,.90) 42%, rgba(249,198,216,.86) 100%),
+    url("../assets/images/anhTongHop/anhNen.jpg") center 22% / cover no-repeat;
   transition:opacity .9s ease, visibility .9s;
 }
 .cover::before,

@@ -20,7 +20,7 @@ window.WEDDING_CONFIG = {
 
   /* ---------- 2. NHẠC NỀN ---------- */
   music: {
-    src: "assets/music/nhac-nen.mp3",   // đặt file mp3 của bạn vào đúng đường dẫn này
+    src: "assets/music/AnhNangCuaAnh4MB.mp3",
     volume: 0.45,
     playOnOpen: true,                    // tự phát khi bấm "Mở thiệp mời"
   },
