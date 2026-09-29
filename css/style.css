@@ -356,18 +356,10 @@ a{ color:var(--rose); }
 /* ------------------------------------------------------------
    SỰ KIỆN
    ------------------------------------------------------------ */
-.events{ display:grid; gap:26px; grid-template-columns:repeat(auto-fit,minmax(320px,1fr)); }
-/* khổ tablet: 2 cột, thẻ lẻ cuối cùng canh giữa thay vì kéo dài hết hàng */
-@media (min-width:721px) and (max-width:1023px){
+.events{ display:grid; gap:26px; grid-template-columns:1fr; }
+/* từ tablet trở lên: cố định 2 cột — hàng 1 = 2 bữa cơm thân mật, hàng 2 = Vu Quy & Thành Hôn */
+@media (min-width:640px){
   .events{ grid-template-columns:repeat(2,1fr); }
-  .events > .event:last-child:nth-child(odd){
-    grid-column:1 / -1; width:calc(50% - 13px); justify-self:center;
-  }
-}
-@media (min-width:1024px){
-  .events{ grid-template-columns:repeat(3,1fr); }
-  /* 4 sự kiện: canh thẻ thứ 4 vào giữa hàng dưới thay vì dạt trái */
-  .events > .event:last-child:nth-child(4){ grid-column:2; }
 }
 .event{
   position:relative; background:#fff; border:1px solid var(--line);
