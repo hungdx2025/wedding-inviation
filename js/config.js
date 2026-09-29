@@ -127,12 +127,15 @@ window.WEDDING_CONFIG = {
 
   /* ---------- 6. ALBUM ẢNH CƯỚI ---------- */
   gallery: [
-    { src: "assets/images/gallery/01.svg", caption: "Ngày mình quen nhau" },
-    { src: "assets/images/gallery/02.svg", caption: "Nắm tay thật chặt" },
-    { src: "assets/images/gallery/03.svg", caption: "Chuyện của hai đứa" },
-    { src: "assets/images/gallery/04.svg", caption: "Mùa cưới" },
-    { src: "assets/images/gallery/05.svg", caption: "Về chung một nhà" },
-    { src: "assets/images/gallery/06.svg", caption: "Và mãi về sau" },
+    { src: "assets/images/albumAnhCuoi/01.jpg", caption: "Áo dài đỏ, chữ Hỷ trăm năm" },
+    { src: "assets/images/albumAnhCuoi/02.jpg", caption: "Nghiêng vành nón, trao nhau nụ cười" },
+    { src: "assets/images/albumAnhCuoi/03.jpg", caption: "Chạm trán dưới ánh hoàng hôn" },
+    { src: "assets/images/albumAnhCuoi/04.jpg", caption: "Trao nhau lời thề nguyện" },
+    { src: "assets/images/albumAnhCuoi/05.jpg", caption: "Khoảnh khắc của riêng hai đứa" },
+    { src: "assets/images/albumAnhCuoi/06.jpg", caption: "Từ nay có nhau" },
+    { src: "assets/images/albumAnhCuoi/07.jpg", caption: "Cứ vui như thế, cả đời bên nhau" },
+    { src: "assets/images/albumAnhCuoi/08.jpg", caption: "Ánh mắt chỉ dành cho nhau" },
+    { src: "assets/images/albumAnhCuoi/09.jpg", caption: "Nụ hôn dưới nắng chiều" },
   ],
 
   /* ---------- 7. VIDEO NGẮN ---------- */
