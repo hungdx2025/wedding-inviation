@@ -55,7 +55,7 @@
     var card = el("article", "person reveal");
     card.setAttribute("data-anim", p.role === "Chú rể" ? "left" : "right");
     card.innerHTML =
-      '<div class="person__photo"><img src="' + esc(p.photo) + '" alt="' + esc(p.fullName) + '" loading="lazy" /></div>' +
+      '<div class="person__photo"><img src="' + esc(p.photo) + '" alt="' + esc(p.fullName) + '" loading="lazy" style="object-position:' + esc(p.photoPosition || "center") + '" /></div>' +
       '<span class="person__role">' + esc(p.role) + '</span>' +
       '<h4 class="person__name">' + esc(p.fullName) + '</h4>' +
       '<p class="person__quote">“' + esc(p.quote) + '”</p>' +

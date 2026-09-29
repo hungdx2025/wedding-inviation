@@ -32,7 +32,8 @@ window.WEDDING_CONFIG = {
       fullName: "Đỗ Xuân Hưng",
       shortName: "Xuân Hưng",
       birthday: "28/08",                  // chỉ hiện ngày/tháng, không hiện năm sinh
-      photo: "assets/images/couple/chu-re.svg",
+      photo: "assets/images/couple/chuRe.jpg",
+      photoPosition: "50% 8%",            // canh khung ảnh tròn sao cho lấy đúng mặt
       father: "Ông Đỗ Xuân Vỹ",
       mother: "Bà Nguyễn Thị Thông",
       addressOld: "Thôn Bùi, TP. Phủ Lý, Tỉnh Hà Nam",
@@ -45,7 +46,8 @@ window.WEDDING_CONFIG = {
       fullName: "Trịnh Hà Du",
       shortName: "Hà Du",
       birthday: "05/02",                  // chỉ hiện ngày/tháng, không hiện năm sinh
-      photo: "assets/images/couple/co-dau.svg",
+      photo: "assets/images/couple/coDau.jpg",
+      photoPosition: "50% 5%",
       father: "Ông Trịnh Xuân Đệ",
       mother: "Bà Nguyễn Thị Thu",
       addressOld: "Thôn Kim Long Nội, Xã Hoàng Long, Huyện Phú Xuyên, TP. Hà Nội",
