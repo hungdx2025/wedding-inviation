@@ -63,7 +63,7 @@ window.WEDDING_CONFIG = {
       key: "tiec-nha-gai",
       name: "Bữa Cơm Thân Mật",
       icon: "cups",
-      time: "__ giờ __",                 // ⚠️ CẦN ĐIỀN giờ đón khách nhà gái
+      time: "16 giờ 00",
       weekday: "Thứ Bảy",
       date: "17.10.2026",
       lunar: "Tức ngày 08 tháng 09 năm Bính Ngọ",
@@ -77,7 +77,7 @@ window.WEDDING_CONFIG = {
       key: "vu-quy",
       name: "Lễ Vu Quy",
       icon: "tray",
-      time: "9 giờ 30",
+      time: "8 giờ 00",
       weekday: "Chủ Nhật",
       date: "18.10.2026",
       lunar: "Tức ngày 09 tháng 09 năm Bính Ngọ",
@@ -91,7 +91,7 @@ window.WEDDING_CONFIG = {
       key: "thanh-hon",
       name: "Lễ Thành Hôn",
       icon: "rings",
-      time: "10 giờ 30",
+      time: "10 giờ 00",
       weekday: "Chủ Nhật",
       date: "18.10.2026",
       lunar: "Tức ngày 09 tháng 09 năm Bính Ngọ",
@@ -102,6 +102,22 @@ window.WEDDING_CONFIG = {
       lat: 20.5319381,                    // toạ độ nhà trai — nút chỉ đường sẽ dẫn đúng điểm này
       lng: 105.9788146,
       note: "Sự hiện diện của Quý vị là niềm vinh hạnh cho gia đình chúng tôi!",
+    },
+    {
+      key: "tiec-nha-trai",
+      name: "Bữa Cơm Thân Mật",
+      icon: "cups",
+      time: "10 giờ 30",
+      weekday: "Chủ Nhật",
+      date: "18.10.2026",
+      lunar: "Tức ngày 09 tháng 09 năm Bính Ngọ",
+      host: "Tư gia nhà trai",
+      addressOld: "Thôn Bùi, TP. Phủ Lý, Tỉnh Hà Nam",
+      addressNew: "Phường Liêm Tuyền, Tỉnh Ninh Bình",
+      mapQuery: "Thôn Bùi, Trịnh Xá, TP. Phủ Lý, Ninh Bình",
+      lat: 20.5319381,
+      lng: 105.9788146,
+      note: "Rất hân hạnh được đón tiếp!",
     },
   ],
 
@@ -122,7 +138,7 @@ window.WEDDING_CONFIG = {
 
   /* ---------- 5. ĐỒNG HỒ ĐẾM NGƯỢC ---------- */
   countdown: {
-    target: "2026-10-18T10:30:00+07:00", // khớp giờ Lễ Thành Hôn
+    target: "2026-10-18T10:00:00+07:00", // khớp giờ Lễ Thành Hôn
     label: "Đếm ngược tới ngày chung đôi",
     doneText: "Hôm nay là ngày hạnh phúc của chúng mình!",
   },

@@ -364,7 +364,11 @@ a{ color:var(--rose); }
     grid-column:1 / -1; width:calc(50% - 13px); justify-self:center;
   }
 }
-@media (min-width:1024px){ .events{ grid-template-columns:repeat(3,1fr); } }
+@media (min-width:1024px){
+  .events{ grid-template-columns:repeat(3,1fr); }
+  /* 4 sự kiện: canh thẻ thứ 4 vào giữa hàng dưới thay vì dạt trái */
+  .events > .event:last-child:nth-child(4){ grid-column:2; }
+}
 .event{
   position:relative; background:#fff; border:1px solid var(--line);
   border-radius:240px 240px var(--radius) var(--radius);
