@@ -155,20 +155,20 @@ window.WEDDING_CONFIG = {
     {
       owner: "Chú rể",
       name: "Đỗ Xuân Hưng",
-      bankName: "Ngân hàng ____",        // ⚠️ CẦN ĐIỀN
-      bankId: "",                         // ⚠️ ví dụ: "vietcombank"
-      accountNo: "",                      // ⚠️ số tài khoản
+      bankName: "BIDV – PGD Đức Giang",
+      bankId: "bidv",
+      accountNo: "1510861924",
       accountName: "DO XUAN HUNG",
-      qrImage: "assets/qr/chu-re.svg",    // thay bằng ảnh QR thật, hoặc để "" để tự sinh VietQR
+      qrImage: "assets/qr/chu-re.jpg",    // ảnh QR thật, hoặc để "" để tự sinh VietQR
     },
     {
       owner: "Cô dâu",
       name: "Trịnh Hà Du",
-      bankName: "Ngân hàng ____",        // ⚠️ CẦN ĐIỀN
-      bankId: "",
-      accountNo: "",
+      bankName: "TPBank",
+      bankId: "tpbank",
+      accountNo: "00389145001",
       accountName: "TRINH HA DU",
-      qrImage: "assets/qr/co-dau.svg",
+      qrImage: "assets/qr/co-dau.jpg",
     },
   ],
 
