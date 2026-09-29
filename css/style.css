@@ -74,7 +74,7 @@ a{ color:var(--rose); }
   padding:24px;
   text-align:center;
   background:
-    linear-gradient(180deg, rgba(46,20,32,.30) 0%, rgba(46,20,32,.08) 30%, rgba(46,20,32,.12) 70%, rgba(46,20,32,.42) 100%),
+    linear-gradient(180deg, rgba(30,14,22,.20) 0%, rgba(30,14,22,.02) 22%, rgba(30,14,22,.05) 55%, rgba(30,14,22,.55) 100%),
     url("../assets/images/anhTongHop/anhNen.jpg") center 20% / cover no-repeat;
   transition:opacity .9s ease, visibility .9s;
 }
@@ -83,6 +83,7 @@ a{ color:var(--rose); }
   content:""; position:absolute; border-radius:50%;
   background:radial-gradient(circle, rgba(244,143,177,.45), transparent 70%);
   filter:blur(6px); animation:floatBlob 9s ease-in-out infinite;
+  mix-blend-mode:screen;
 }
 .cover::before{ width:320px; height:320px; top:-90px; left:-80px; }
 .cover::after { width:400px; height:400px; bottom:-140px; right:-110px; animation-delay:-4s; }
@@ -92,33 +93,32 @@ a{ color:var(--rose); }
 .cover__inner{
   position:relative; z-index:2;
   max-width:560px;
-  padding:32px 26px 28px;
-  border-radius:var(--radius-lg);
-  background:rgba(255,253,252,.80);
-  backdrop-filter:blur(10px);
-  -webkit-backdrop-filter:blur(10px);
-  box-shadow:var(--shadow);
+  align-self:end;
+  padding-bottom:6vh;
   animation:coverIn 1s cubic-bezier(.2,.8,.25,1) both;
 }
 .cover__ribbon{ animation:swing 4.5s ease-in-out infinite; transform-origin:50% 10%; margin-bottom:-14px; display:flex; justify-content:center; }
-.cover__ribbon svg{ filter:drop-shadow(0 12px 18px rgba(229,67,127,.28)); }
+.cover__ribbon svg{ filter:drop-shadow(0 12px 18px rgba(229,67,127,.4)); }
 
 .cover__eyebrow{
   font-size:.78rem; letter-spacing:.5em; text-transform:uppercase;
-  color:var(--rose); margin:8px 0 18px; padding-left:.5em;
+  color:#fff; margin:8px 0 18px; padding-left:.5em;
+  text-shadow:0 2px 14px rgba(46,20,32,.55);
 }
 .cover__names{
   font-size:clamp(2.6rem, 11vw, 4.4rem);
-  line-height:1.18; margin:0; color:var(--rose-deep);
+  line-height:1.18; margin:0; color:#fff;
   display:flex; flex-direction:column; align-items:center; gap:4px;
+  text-shadow:0 4px 24px rgba(46,20,32,.55), 0 1px 0 rgba(46,20,32,.25);
 }
-.cover__amp{ display:block; animation:beat 1.6s ease-in-out infinite; }
+.cover__amp{ display:block; animation:beat 1.6s ease-in-out infinite; filter:drop-shadow(0 2px 10px rgba(46,20,32,.4)); }
 .cover__date{
   font-family:var(--font-serif);
   font-size:clamp(1rem,4.4vw,1.4rem); letter-spacing:.32em;
-  color:var(--ink); margin:14px 0 26px;
+  color:#fff; margin:14px 0 26px;
+  text-shadow:0 2px 14px rgba(46,20,32,.55);
 }
-.cover__hint{ font-size:.82rem; color:var(--ink-soft); margin-top:16px; }
+.cover__hint{ font-size:.82rem; color:#fff; opacity:.92; margin-top:16px; text-shadow:0 2px 10px rgba(46,20,32,.6); }
 
 /* ------------------------------------------------------------
    NÚT
