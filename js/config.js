@@ -188,7 +188,7 @@ window.WEDDING_CONFIG = {
 
   /* ---------- 7. VIDEO NGẮN ---------- */
   video: {
-    src: "assets/video/wedding-clip.mp4", // đặt file mp4 của bạn vào đây
+    src: "assets/video/hungdu-wedding-web.mp4",
     poster: "assets/images/gallery/01.svg",
     title: "Một thước phim nhỏ của chúng mình",
     subtitle: "Bấm để xem — nhớ bật loa nhé!",
